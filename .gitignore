@@ -1,0 +1,22 @@
+# Node modules and build output
+frontend/node_modules/
+frontend/dist/
+frontend/.nx/
+*.log
+
+# Python cache and environments
+backend/__pycache__/
+backend/.pytest_cache/
+backend/venv/
+backend/.env
+backend/.venv/
+*.pyc
+
+# Database and ML binaries
+backend/autism_screening.db
+backend/autism_rf_model.joblib
+backend/autism_vision_model.h5
+backend/reports_output/
+
+# macOS spec
+.DS_Store
